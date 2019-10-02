@@ -1,0 +1,106 @@
+body {
+  font-family: verdana;
+   background-color:#efefef;
+}
+
+.card{
+  width: 300px;
+  margin: 30px;
+  box-shadow: 0 0 88px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image img{
+  width: 250px;
+  padding-top: 20px;
+}
+.image{
+  text-align: center;
+  }
+
+.middle{
+  position: absolute;
+  left: 110px;
+  top: 140px;
+}
+
+.middle button{
+  text-align: center;
+  padding: 14px 28px;
+  background-color: transparent;
+  border:2px solid #ffffff;
+   color:#ffffff;
+   text-transform:uppercase;
+   font-weight:800;
+   display:none;
+}
+
+.image:hover .middle button{
+  display:block;
+}
+
+.image:hover {
+  background-color: rgba(232, 137, 42,0.8);
+}
+
+.card:hover{
+    box-shadow: 0 0 88px 0 rgba(0, 0, 0, 0.3607843137254902);
+}
+
+.mat{
+  background-color:#ffffff;
+  padding: 5px 35px 10px;
+}
+
+.mat h3{
+  font-weight:500;
+font-size:18px;
+}
+
+.mat p{
+  font-size:12px;
+  color:#b3aaaa;
+  margin-top:-15px;
+}
+
+.mat h4{
+font-size:14px;
+font-weight:600;
+text-transform:uppercase;
+}
+
+.price{
+  padding-left: 40px;
+  font-weight: 800;
+  color: #2bd92b;
+}
+
+.color-group{
+  display: flex;
+}
+
+.circle {
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  margin-bottom:20px;
+  margin-top:-12px;
+
+}
+
+.two, .three, .four {
+
+margin-left: 10px;
+}
+
+.one{
+  background-color:#3d468a;
+}
+.two{
+  background-color:#f2492c;
+}
+.three{
+  background-color:#7d823c;
+}
+.four{
+  background-color:#2bd92b;
+}
